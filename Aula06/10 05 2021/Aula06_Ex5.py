@@ -1,4 +1,5 @@
-# IMC = peso / (altura(m) , altura(m))
+# Faça um programa que calcule através de uma função o IMC de uma pessoa que tenha 1,68 e pese 75kg.
+# DADO: IMC = peso / (altura(m) , altura(m))
 
 def imc(p, a):
     r = p / (a * a)

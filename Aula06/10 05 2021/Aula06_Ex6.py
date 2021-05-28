@@ -1,4 +1,12 @@
-# funcao converte numero recebido para o conceito
+# Escreva uma função que, dado um númeronotarepresentando a nota de um estudante, converte o valor de nota para um conceito (A, B, C, D, E e F).
+
+""" Nota / Conceito
+>= 9.0 / A  
+>= 8.0 / B  
+>= 7.0 / C
+>= 6.0 / D
+>= 5.0 / E
+<= 4.0 / F """
 
 def conceito():
     global n
@@ -27,4 +35,3 @@ def conceito():
 
 n = float(input('Digite sua nota: '))
 conceito()
-
