@@ -8,7 +8,7 @@ class Relogio:
     
     def avancaTempo(self, minutos):
         self.minutos += minutos
-        while(self.minutos >= 60):
+        while self.minutos >= 60:
             self.minutos -= 60
             self.horas += 1
     

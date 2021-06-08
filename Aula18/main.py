@@ -40,7 +40,7 @@ if(__name__ == "__main__"): # Pesquisar significado desse if
             else:
                 print("O café da manhã custa 15 reais, você não tem dinheiro suficiente.")
             relogio.avancaTempo(5)
-        elif(opcao == "4"):
+        elif opcao == "4":
             if(cafe_da_manha):
                 personagem.fome = False
                 cafe_da_manha = False
