@@ -1,17 +1,17 @@
 const vida_cavaleiros = {
-    "Seya": 100,
-    "Shiryu": 100,
-    "Hyoga": 100,
-    "Shun": 100,
-    "Ikki": 100,
+    "Seya": 60,
+    "Shiryu": 61,
+    "Hyoga": 58,
+    "Shun": 59,
+    "Ikki": 64,
 };
 
 const poderes = {
-    "meteoro": 38,
-    "colera": 43,
-    "diamante": 30,
-    "corrente": 33,
-    "fenix": 42,
+    "Pégasus": 38,
+    "Dragão": 43,
+    "Cisne": 36,
+    "Andrômeda": 35,
+    "Fênix": 42,
 };
 
 let cavaleiros_select;
@@ -54,10 +54,10 @@ function calcularDano() {
     const danoTotal = danoFixo + danoArma;
     const vidaCavaleiros = vida_cavaleiros[cavaleiros_select];
 
-    let resultado = "Dano " + danoTotal + "!";
+    let resultado = "Dano " + danoTotal + ".";
 
     if (danoTotal >= vidaCavaleiros) {
-        resultado += " Parabéns! Você derrotou o " + cavaleiros_select;
+        resultado += " Parabéns! Você derrotou o " + cavaleiros_select + " com o ataque " + poderes_select +"!";
     }else{
         resultado += " Ops... você não derrotou o " + cavaleiros_select + ". Tente novamente!";
     }
@@ -76,8 +76,8 @@ function limparElementosSelecionados(tipo) {
 }
 
 function dadosRand() {
-     const min = Math.ceil(1);
-     const max = Math.floor(10);
+     const min = Math.ceil(5);
+     const max = Math.floor(30);
 
      return Math.floor(Math.random() * (max - min + 1)) + min;
 }
