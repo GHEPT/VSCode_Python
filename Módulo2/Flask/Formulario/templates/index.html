@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms em HTML + Python + Flask</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <form method="POST">
+        <div class="form_bloco">
+            <label for="usuario_nome" class="form_label">
+                Digite o seu nome:
+            </label>
+            <input
+                type="text"
+                name="usuario_nome"
+                id="usuario_nome"
+                placeholder="Pedro"
+                required
+            
+            />
+
+        <div class="form_bloco">
+            <label for="usuario_sobrenome" class="form_label">
+                Digite o seu sobrenome:
+            </label>
+            <input
+                type="text"
+                name="usuario_sobrenome"
+                id="usuario_sobrenome"
+                placeholder="Silva"
+                required
+        
+            />
+
+        <div class="form_bloco">
+            <input 
+                type="radio"
+                name="apenas_uma_opcao"
+                id="apenas_uma_opcao1"
+                value="opcao_1"
+                checked
+            
+            />
+
+            <label for="apenas_uma_opcao1">Opção 1</label>
+
+            <input 
+                type="radio"
+                name="apenas_uma_opcao"
+                id="apenas_uma_opcao2"
+                value="opcao_2"
+            
+            />
+
+            <label for="apenas_uma_opcao2">Opção 2</label>
+
+        <div class="form_bloco">
+            <input 
+                type="checkbox"
+                name="varias_opcoes"
+                id="varias_opcoes1"
+                value="opcao_1"
+            
+            />
+
+            <label for="varias_opcoes1">Opção 1</label>
+
+            <input 
+                type="checkbox"
+                name="varias_opcoes"
+                id="varias_opcoes2"
+                value="opcao_2"
+            
+            />
+
+            <label for="varias_opcoes2">Opção 2</label>
+
+        <div class="form_bloco">
+            <input 
+            type="submit"
+            class="form_enviar"
+            value="Enviar"
+        
+            />
+            
+        </div>
+    </form>
+</body>
+</html>

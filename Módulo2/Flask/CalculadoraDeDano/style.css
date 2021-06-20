@@ -1,0 +1,67 @@
+body {
+	font-family: 'Verdana', sans-serif;
+}
+
+.calculadora-dano {
+    background-image: url("img/Templo_Atena.png");
+    background-repeat: no-repeat;
+    background-size: 1350px 580px;
+    background-position: center top;
+}
+
+.linha-container {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: #ffffff;
+    
+}
+
+.elemento_personagem {
+    color: #ffffff;
+    text-align: center;
+    font-weight: bolder;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.elementos-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.elemento {
+    cursor: pointer;
+}
+
+.elemento p {
+    text-align: center;
+    font-weight: bold;
+    color:rgb(225, 94, 0);
+}
+
+button {
+    background-color: rgb(255, 94, 0);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.selecionado {
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#dano {
+    font-size: medium;
+    font-weight: bold;
+}

@@ -1,0 +1,60 @@
+body {
+    margin-top: 20px;
+    background: linear-gradient( to right, red, green, yellow, blue );
+    /* linear-gradient(to right,
+    red 20%, orange 20% 40%, yellow 40% 60%, green 60% 80%, blue 80%); */
+    font-family: 'Segoe UI', Tahoma;
+    align-content: center;
+    font-size: 14pt;
+}
+
+#nome {
+    font-weight: bolder;
+    padding-left: 3px;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+}
+
+#situacao {
+    padding-left: 4px;
+}
+
+#imagem {
+    margin-top: 15px;
+    border: 6px solid darkorchid;
+    
+}
+
+#bloco_humor {
+    font-weight: bolder;
+    padding-top: 10px;
+    font-style: italic;
+    padding-left: 300px;
+    padding-right: 300px;
+
+}
+
+.bloco_info {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco_info button {
+    font-size: 15px;
+    border: 6px outset rgb(100, 178, 241);
+    background-color: rgb(0, 3, 179);
+    color: white;
+    font-weight: bolder;
+    border-radius: 8pt;
+}
+
+.bloco_info button:hover {
+    background-color: rgb(70, 72, 158);
+    border: 6px outset rgb(54, 41, 112);
+}
+
+.bloco_info:nth-of-type(2) {
+    
+}

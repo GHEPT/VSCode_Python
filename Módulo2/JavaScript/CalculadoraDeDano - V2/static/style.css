@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+}
+
+body {
+	font-family: 'Verdana', sans-serif;
+    background-image: url("/static/img/Templo_Atena.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.calc img{
+    height: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 3px;
+}
+
+.linha-container {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    color: #fffffffb;
+    margin: 4px;
+}
+
+.linha-container_2 {
+    color: rgb(250, 246, 246);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.elemento {
+    color: #ffffff;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+.container-todos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.titulo_selecione p {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    color: #f3faf4fb;
+    margin: 4px;
+    font-weight: bolder;
+}
+
+.arma img {
+    height: 200px;
+    width: 200px;
+
+}
+
+.elemento p {
+    text-align: center;
+    font-weight: bold;
+    color:rgb(52, 225, 0);
+    background-color: rgba(110, 87, 201, 0.247);
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+button {
+    background-color: rgb(255, 94, 0);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+}
+
+.selecionado {
+    border: 2px solid rgb(251, 255, 16);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#dano {
+    font-size: medium;
+    font-weight: bold;
+    color: blue;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio Prêmio BLUE</title>
+</head>
+<body>
+    <div class="conteudo">
+        {% if premio %}
+        <div class="bloco">
+            {{nome_jogador}} recebeu o prêmio da Blue.
+        </div>
+        {% else %}
+        <div class="bloco">
+            {{nome_jogador}} NÃO recebeu o prêmio da Blue.
+        
+        {% endif %}
+        </div>
+    </div>
+    
+</body>
+</html>
